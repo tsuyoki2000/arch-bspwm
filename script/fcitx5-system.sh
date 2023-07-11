@@ -18,7 +18,6 @@ sudo sh -c "echo XMODIFIERS=@im=fcitx >> $ETC_ENV"
 
 # ログイン時に fcitx5 を自動起動するために /.config/bspwm/bspwmrc に追加
 echo "
-
 # fcitx5 自動起動
 fcitx5 &
 " >> $HOME/.config/bspwm/bspwmrc
