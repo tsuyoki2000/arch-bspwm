@@ -5,7 +5,6 @@
 ###################################################
 
 # インストールするパッケージ
-echo "########## Installing bspwm Package ##########"
 PACKAGE="
 xorg
 bspwm
@@ -19,7 +18,6 @@ git
 "
 
 # パッケージのインストール
-#sudo pacman -Syu xorg bspwm sxhkd dmenu alacritty otf-ipafont neovim xclip git --noconfirm
 #sudo pacman -Syu --needed --noconfirm - < packages-bspwm.txt
 sudo pacman -Syu $PACKAGE --needed --noconfirm
 
@@ -32,6 +30,10 @@ cp /usr/share/doc/bspwm/examples/sxhkdrc $HOME/.config/sxhkd/
 # ~/.config/sxhkd/sxhkdrc の編集
 sed -i "s/urxvt/alacritty #urxvt/g" $HOME/.config/sxhkd/sxhkdrc
 
+# ディスプレイ・マネージャー（sddm）のインストールとサービスの有効化
+sudo pacman -S sddm --noconfirm
+sudo systemctl enable sddm
+
 # ~/.bashrc の編集
 echo "
 alias vim='nvim'
@@ -41,9 +43,14 @@ alias ..='cd ..'
 alias autoremove='sudo pacman -Rsc $(pacman -Qdtq)'
 " >> $HOME/.bashrc
 
-# ディスプレイ・マネージャー（sddm）のインストールとサービスの有効化
-sudo pacman -S sddm --noconfirm
-sudo systemctl enable sddm
+# ~/.config/bspwm/bspwmrc の編集
+echo "
+# マウスのアイコン
+xsetroot -cursor_name left_ptr
+
+# CapsLockキー を Ctrlキー にする
+setxkbmap -option ctrl:nocaps
+" >> $HOME/.config/bspwm/bspwmrc
 
 # 再起動を促すメッセージを表示
 echo "Type reboot"
