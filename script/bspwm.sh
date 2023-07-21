@@ -40,7 +40,7 @@ alias vim='nvim'
 alias ll='ls -l'
 alias la='ls -lA'
 alias ..='cd ..'
-alias autoremove='sudo pacman -Rsc $(pacman -Qdtq)'
+alias autoremove='sudo pacman -Rsc \$(pacman -Qdtq)'
 " >> $HOME/.bashrc
 
 # ~/.config/bspwm/bspwmrc の編集
