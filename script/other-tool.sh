@@ -10,8 +10,9 @@ firefox-i18n-ja
 arandr
 nitrogen
 picom
-polybar
+htop
 thunar
+polybar
 "
 
 # パッケージのインストール
