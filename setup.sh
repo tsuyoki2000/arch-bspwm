@@ -35,6 +35,10 @@ bash script/pacman-conf.sh
 green "Create neovim-config..."
 bash script/neovim-config-minimal.sh
 
+# ranger
+green "Install ranger..."
+bash script/ranger.sh
+
 # その他のツールインストール
 green "Install Other Tool..."
 bash script/other-tool.sh
