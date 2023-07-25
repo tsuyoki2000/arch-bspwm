@@ -27,9 +27,9 @@ $HOME/.screenlayout/display.sh
 nitrogen --restore
 
 # Polybar 起動スクリプト
+#$HOME/.config/polybar/launch.sh
 killall polybar
 polybar &
-#$HOME/.config/polybar/launch.sh
 
 # 透過処理
 picom &
