@@ -43,5 +43,9 @@ bash script/ranger.sh
 green "Install Other Tool..."
 bash script/other-tool.sh
 
+# その他のツールインストール
+green "Install Thunar..."
+bash script/thunar.sh
+
 # 再起動
 reboot
