@@ -11,7 +11,6 @@ arandr
 nitrogen
 picom
 polybar
-thunar
 htop
 "
 
