@@ -10,7 +10,8 @@ xorg
 bspwm
 sxhkd
 dmenu
-alacritty
+#alacritty
+xfce4-terminal
 otf-ipafont
 neovim
 xclip
@@ -28,7 +29,8 @@ cp /usr/share/doc/bspwm/examples/bspwmrc $HOME/.config/bspwm/
 cp /usr/share/doc/bspwm/examples/sxhkdrc $HOME/.config/sxhkd/
 
 # ~/.config/sxhkd/sxhkdrc の編集
-sed -i "s/urxvt/alacritty #urxvt/g" $HOME/.config/sxhkd/sxhkdrc
+#sed -i "s/urxvt/alacritty #urxvt/g" $HOME/.config/sxhkd/sxhkdrc
+sed -i "s/urxvt/xfce4-terminal #urxvt/g" $HOME/.config/sxhkd/sxhkdrc
 
 # ディスプレイ・マネージャー（sddm）のインストールとサービスの有効化
 sudo pacman -S sddm --noconfirm
