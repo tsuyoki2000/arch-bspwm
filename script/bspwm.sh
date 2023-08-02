@@ -50,6 +50,7 @@ alias autoremove='sudo pacman -Rsc \$(pacman -Qdtq)'
 " >> $HOME/.bashrc
 
 # ~/.config/bspwm/bspwmrc の編集
+sed -i "s/I II III IV V VI VII VIII IX X/1 2 3 4 5 6 7 8 9 0/g" $HOME/.config/bspwm/bspwmrc
 echo "
 # マウスのアイコン
 xsetroot -cursor_name left_ptr
