@@ -10,7 +10,6 @@ xorg
 bspwm
 sxhkd
 dmenu
-#alacritty
 xfce4-terminal
 otf-ipafont
 neovim
