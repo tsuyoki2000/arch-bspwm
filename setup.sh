@@ -62,7 +62,7 @@ bash script/thunar.sh
 # bash を fish に変更
 green ""
 green "Installing fish..."
-bash script/thunar.sh
+bash script/fish.sh
 
 # 再起動
 green ""
