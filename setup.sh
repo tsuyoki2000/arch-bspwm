@@ -65,4 +65,6 @@ green "Installing fish..."
 bash script/thunar.sh
 
 # 再起動
-reboot
+green ""
+green "Install Complete. Type 'reboot'"
+#reboot
