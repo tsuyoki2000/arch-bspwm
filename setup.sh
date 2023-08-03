@@ -66,5 +66,6 @@ bash script/thunar.sh
 
 # 再起動
 green ""
-green "Install Complete. Type 'reboot'"
+green "Install Complete."
+green "Type 'reboot'"
 #reboot
