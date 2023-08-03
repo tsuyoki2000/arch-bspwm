@@ -16,39 +16,52 @@ function yellow() {
 }
 
 # bspwm ベースシステム
-green "Install bspwm..."
+green "Installing bspwm..."
 bash script/bspwm.sh
 
 ## fcitx5
-#green "Install fcitx5..."
+green ""
+#green "Installing fcitx5..."
 #bash script/fcitx5-system.sh
 
 # fcitx
-green "Install fcitx..."
+green ""
+green "Installing fcitx..."
 bash script/fcitx-system.sh
 
 # yay
-green "Install yay..."
+green ""
+green "Installing yay..."
 bash script/yay.sh
 
 # pacman-conf 編集
+green ""
 green "Edit pacman-conf..."
 bash script/pacman-conf.sh
 
 # 最低限の Neovim 設定ファイルを作成
+green ""
 green "Create neovim-config..."
 bash script/neovim-config-minimal.sh
 
 # ranger
-green "Install ranger..."
+green ""
+green "Installing ranger..."
 bash script/ranger.sh
 
 # その他のツールインストール
-green "Install Other Tool..."
+green ""
+green "Installing Other Tool..."
 bash script/other-tool.sh
 
-# その他のツールインストール
-green "Install Thunar..."
+# Thunar
+green ""
+green "Installing Thunar..."
+bash script/thunar.sh
+
+# bash を fish に変更
+green ""
+green "Installing fish..."
 bash script/thunar.sh
 
 # 再起動
