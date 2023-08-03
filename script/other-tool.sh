@@ -12,6 +12,7 @@ nitrogen
 picom
 polybar
 htop
+neofetch
 "
 
 # パッケージのインストール
