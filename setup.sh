@@ -15,9 +15,12 @@ function yellow() {
     echo -e "$YELLOW$*$NORMAL"
 }
 
+
+
 # 日本語キーボード
 sudo localectl set-keymap jp106 --noconfirm
 localectl
+read
 
 # bspwm ベースシステム
 green "Installing bspwm..."
