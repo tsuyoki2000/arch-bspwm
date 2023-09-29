@@ -17,6 +17,7 @@ function yellow() {
 
 # 日本語キーボード
 sudo localectl set-keymap jp106 --noconfirm
+localectl
 
 # bspwm ベースシステム
 green "Installing bspwm..."
