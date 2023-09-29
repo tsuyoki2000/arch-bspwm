@@ -18,6 +18,7 @@ function yellow() {
 
 
 # 日本語キーボード
+localectl
 sudo localectl set-keymap jp106
 localectl
 read
