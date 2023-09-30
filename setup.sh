@@ -15,17 +15,12 @@ function yellow() {
     echo -e "$YELLOW$*$NORMAL"
 }
 
-localectl
-
 # 言語を日本語に設定
 sudo localectl set-locale LANG=ja_JP.UTF-8
 
 # キーボードを日本語キーボードに設定
+# （Xシステムをセットアップする前に実行する必要がある）
 sudo localectl set-keymap jp106
-
-echo
-localectl
-read
 
 # bspwm ベースシステム
 green "Installing bspwm..."
