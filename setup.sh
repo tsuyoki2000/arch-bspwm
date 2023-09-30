@@ -18,7 +18,7 @@ function yellow() {
 localectl
 
 # 言語を日本語に設定
-sudo localectl set-locale LANG=ja_JP.utf8
+sudo localectl set-locale LANG=ja_JP.UTF-8
 
 # キーボードを日本語キーボードに設定
 sudo localectl set-keymap jp106
