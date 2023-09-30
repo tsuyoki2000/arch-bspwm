@@ -32,7 +32,7 @@ green "Installing bspwm..."
 bash script/bspwm.sh
 
 ## fcitx5
-green ""
+#green ""
 #green "Installing fcitx5..."
 #bash script/fcitx5-system.sh
 
