@@ -23,7 +23,7 @@ fcitx5 &
 " >> $HOME/.config/bspwm/bspwmrc
 
 # インライン入力に対応するために、~/.config/fcitx5/conf/xim.conf を追加
-mkdir -p $HOME/.config/fcitx5/conf/
+mkdir -p $HOME/.config/fcitx5/conf
 echo "
 # XIM で On The Spot スタイルを使う（再起動が必要）
 UseOnTheSpot=True
