@@ -26,15 +26,15 @@ sudo localectl set-keymap jp106
 green "Installing bspwm..."
 bash script/bspwm.sh
 
-## fcitx5
-#green ""
-#green "Installing fcitx5..."
-#bash script/fcitx5-system.sh
-
-# fcitx
+# fcitx5
 green ""
-green "Installing fcitx..."
-bash script/fcitx-system.sh
+green "Installing fcitx5..."
+bash script/fcitx5-system.sh
+
+## fcitx
+#green ""
+#green "Installing fcitx..."
+#bash script/fcitx-system.sh
 
 # yay
 green ""
