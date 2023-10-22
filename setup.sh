@@ -72,6 +72,9 @@ green "Installing fish..."
 bash script/fish.sh
 
 # 設定ファイルのコピー
+green ""
+green "Copying Config File..."
+mkdir -p $HOME/.config/xfce4/xfconf/xfce-perchannel-xml
 cp config/xfce4/xfconf/xfce-perchannel-xml/xfce4-terminal.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-terminal.xml
 
 # 再起動
