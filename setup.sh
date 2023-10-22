@@ -71,6 +71,9 @@ green ""
 green "Installing fish..."
 bash script/fish.sh
 
+# 設定ファイルのコピー
+cp config/xfce4/xfconf/xfce-perchannel-xml/xfce4-terminal.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-terminal.xml
+
 # 再起動
 green ""
 green "Install Complete."
