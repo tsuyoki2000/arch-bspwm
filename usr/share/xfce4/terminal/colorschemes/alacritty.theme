@@ -1,1 +1,6 @@
-
+[Scheme]
+Name=alacritty (dark)
+ColorCursor=#C5C8C6
+ColorForeground=#C5C8C6
+ColorBackground=#1D1F21
+ColorPalette=#1D1F21;#CC6666;#B5BD68;#F0C674;#81A2BE;#B294BB;#8ABEB7;#C5C8C6;#666666;#D54E53;#B9CA4A;#E7C547;#7AA6DA;#C397D8;#70C0B1;#EAEAEA
