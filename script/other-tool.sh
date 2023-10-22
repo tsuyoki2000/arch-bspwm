@@ -13,6 +13,8 @@ picom
 polybar
 htop
 neofetch
+lxappearance
+arc-gtk-theme
 "
 
 # パッケージのインストール
