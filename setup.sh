@@ -92,9 +92,9 @@ bash script/yazi.sh
 green ""
 green "Copying Config File..."
 # xfce4-terminal
-#mkdir -p $HOME/.config/xfce4/xfconf/xfce-perchannel-xml
-#cp .config/xfce4/xfconf/xfce-perchannel-xml/xfce4-terminal.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/
-#sudo cp usr/share/xfce4/terminal/colorschemes/alacritty.theme /usr/share/xfce4/terminal/colorschemes/
+mkdir -p $HOME/.config/xfce4/xfconf/xfce-perchannel-xml
+cp .config/xfce4/xfconf/xfce-perchannel-xml/xfce4-terminal.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/
+sudo cp usr/share/xfce4/terminal/colorschemes/alacritty.theme /usr/share/xfce4/terminal/colorschemes/
 echo "done."
 
 # 再起動
