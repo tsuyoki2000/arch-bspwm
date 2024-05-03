@@ -73,6 +73,11 @@ green ""
 green "Installing fish..."
 bash script/fish.sh
 
+# フォント
+green ""
+green "Installing fish..."
+bash script/font-hackgen.sh
+
 # 設定ファイルのコピー
 green ""
 green "Copying Config File..."
