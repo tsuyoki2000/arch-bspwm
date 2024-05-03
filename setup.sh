@@ -75,7 +75,7 @@ bash script/fish.sh
 
 # フォント
 green ""
-green "Installing hackgenフォント..."
+green "Installing HackGen Font..."
 bash script/font-hackgen.sh
 
 # StarShip
