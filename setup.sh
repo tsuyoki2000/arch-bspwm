@@ -85,5 +85,5 @@ echo "done."
 # 再起動
 green ""
 green "Install Complete."
-green "Type 'reboot'"
+green "Type 'reboot' or 'poweroff'"
 #reboot
