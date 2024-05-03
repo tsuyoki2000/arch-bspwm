@@ -83,6 +83,11 @@ green ""
 green "Installing StarShip..."
 bash script/starship.sh
 
+# yazi
+green ""
+green "Installing yazi(CLI FileManager)..."
+bash script/yazi.sh
+
 # 設定ファイルのコピー
 green ""
 green "Copying Config File..."
