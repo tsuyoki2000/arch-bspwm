@@ -11,5 +11,8 @@ sudo pacman -Sy starship --needed --noconfirm
 echo "
 starship init fish | source" >> $HOME/.config/fish/config.fish
 
+# プリセットの適用（https://starship.rs/ja-JP/presets/）
+starship preset gruvbox-rainbow -o ~/.config/starship.toml
+
 # ターミナルを再起動
 echo "Restart Terminal"
