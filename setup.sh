@@ -75,8 +75,13 @@ bash script/fish.sh
 
 # フォント
 green ""
-green "Installing fish..."
+green "Installing hackgenフォント..."
 bash script/font-hackgen.sh
+
+# StarShip
+green ""
+green "Installing StarShip..."
+bash script/starship.sh
 
 # 設定ファイルのコピー
 green ""
