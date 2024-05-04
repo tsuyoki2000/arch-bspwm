@@ -16,8 +16,3 @@ sudo chsh -s /bin/fish $USER
 # $ chsh
 # $ パスワード入力
 # $ /bin/fish
-
-# fish の挨拶文を無効化
-echo "
-set fish_greeting" >> $HOME/.config/fish/config.fish
-
