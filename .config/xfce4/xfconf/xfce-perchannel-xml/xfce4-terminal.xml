@@ -6,5 +6,5 @@
   <property name="background-mode" type="string" value="TERMINAL_BACKGROUND_TRANSPARENT"/>
   <property name="background-darkness" type="double" value="0.85"/>
   <property name="misc-menubar-default" type="bool" value="false"/>
-  <property name="color-background" type="string" value="#24241f1f3131"/>
+  <property name="color-palette" type="string" value="#181818;#CC6666;B5BD68;#F0C674;#81A2BE;#B294BB;#8ABEB7;#C5C8C6;#666666;#D54E53;#B9CA4A;#E7C547;#7AA6DA;#C397D8;#70C0B1;#EAEAEA"/>
 </channel>
