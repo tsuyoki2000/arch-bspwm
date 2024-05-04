@@ -73,6 +73,19 @@ green ""
 green "Installing fish..."
 bash script/fish.sh
 
+# 設定ファイルのコピー
+green ""
+green "Copying Config File..."
+# xfce4-terminal
+mkdir -p $HOME/.config/xfce4/xfconf/xfce-perchannel-xml
+cp .config/xfce4/xfconf/xfce-perchannel-xml/xfce4-terminal.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/
+sudo cp usr/share/xfce4/terminal/colorschemes/alacritty.theme /usr/share/xfce4/terminal/colorschemes/
+# fish
+mkdir -p $HOME/.config/fish
+cp .config/fish/config.fish $HOME/.config/fish/
+echo "done."
+
+# ----- 自分用の設定（ここから） -----
 # フォント
 green ""
 green "Installing HackGen Font..."
@@ -87,18 +100,7 @@ bash script/starship.sh
 green ""
 green "Installing yazi(CLI FileManager)..."
 bash script/yazi.sh
-
-# 設定ファイルのコピー
-green ""
-green "Copying Config File..."
-# xfce4-terminal
-mkdir -p $HOME/.config/xfce4/xfconf/xfce-perchannel-xml
-cp .config/xfce4/xfconf/xfce-perchannel-xml/xfce4-terminal.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/
-sudo cp usr/share/xfce4/terminal/colorschemes/alacritty.theme /usr/share/xfce4/terminal/colorschemes/
-# fish
-mkdir -p $HOME/.config/fish
-cp .config/fish/config.fish $HOME/.config/fish/
-echo "done."
+# ----- 自分用の設定（ここまで） -----
 
 # 再起動
 green ""
