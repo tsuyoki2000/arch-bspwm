@@ -16,6 +16,3 @@ alias wttr='curl wttr.in/?lang=ja'
 
 # fish の挨拶文を無効化
 set fish_greeting
-
-# pfetch（neofetch のようなやつ） を表示
-pfetch
