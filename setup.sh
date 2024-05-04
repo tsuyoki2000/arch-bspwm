@@ -47,10 +47,11 @@ green "Edit pacman-conf..."
 bash script/pacman-conf.sh
 echo "done."
 
-# 最低限の Neovim 設定ファイルを作成
+# Neovim 設定ファイルを作成
 green ""
-green "Create neovim-config..."
-bash script/neovim-config-minimal.sh
+green "Create Neovim-Config..."
+#bash script/neovim-config-minimal.sh
+bash script/neovim-nvchad-.sh
 echo "done."
 
 # ranger
