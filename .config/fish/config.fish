@@ -7,7 +7,7 @@ alias c='clear'
 alias v='nvim'
 alias vim='nvim'
 alias cleanup='sudo pacman -Rs $(pacman -Qdtq)'
-alias f='yazi'
+alias f='ranger'
 alias wttr='curl wttr.in/?lang=ja'
 
 #alias hibernate='systemctl hibernate'
@@ -19,6 +19,3 @@ set fish_greeting
 
 # pfetch（neofetch のようなやつ） を表示
 pfetch
-
-# starship 有効化
-starship init fish | source
