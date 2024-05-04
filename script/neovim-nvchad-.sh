@@ -6,7 +6,7 @@
 NVIM_CONFIG="${HOME}/.config/nvim/init.lua"
 
 # ripgrep のインストール
-sudo pacman -S ripgrep
+sudo pacman -S ripgrep --needed --noconfirm
 
 if [ ! -e $NVIM_CONFIG ]; then
   mkdir -p $HOME/.config/nvim/
