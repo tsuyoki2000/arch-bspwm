@@ -83,6 +83,9 @@ sudo cp usr/share/xfce4/terminal/colorschemes/alacritty.theme /usr/share/xfce4/t
 # fish
 mkdir -p $HOME/.config/fish
 cp .config/fish/config.fish $HOME/.config/fish/
+# polybar
+mkdir -p $HOME/.config/polybar
+cp .config/polybar/config.ini $HOME/.config/polybar/
 echo "done."
 
 # ----- 自分用の設定（ここから） -----
