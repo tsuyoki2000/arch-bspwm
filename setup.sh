@@ -100,6 +100,12 @@ bash script/starship.sh
 green ""
 green "Installing yazi(CLI FileManager)..."
 bash script/yazi.sh
+
+# alacritty（xfce4-terminal が使えなくなった時用）
+green ""
+green "Installing alacritty..."
+bash script/alacritty.sh
+
 # ----- 自分用の設定（ここまで） -----
 
 # 再起動
