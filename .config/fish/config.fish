@@ -6,6 +6,7 @@ end
 alias c='clear'
 alias v='nvim'
 alias vim='nvim'
+alias pacup='sudo pacman -Syu'
 alias cleanup='sudo pacman -Rs $(pacman -Qdtq)'
 alias f='ranger'
 alias wttr='curl wttr.in/?lang=ja'
