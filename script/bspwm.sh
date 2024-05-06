@@ -12,9 +12,9 @@ sxhkd
 dmenu
 xfce4-terminal
 otf-ipafont
+dunst
 neovim
 xclip
-git
 "
 
 # パッケージのインストール
@@ -57,6 +57,9 @@ xsetroot -cursor_name left_ptr
 
 # CapsLockキー を Ctrlキー にする
 setxkbmap -option ctrl:nocaps
+
+# 通知デーモン
+dunst &
 " >> $HOME/.config/bspwm/bspwmrc
 
 # 再起動を促すメッセージを表示
