@@ -5,6 +5,9 @@
 # yazi（CLI FileManager）で画像を表示するのに必要     #
 #######################################################
 
+# ueberzug の削除
+yay -R ueberzug --noconfirm
+
 # パッケージのインストール
 yay -S ueberzugpp --needed --noconfirm
 
