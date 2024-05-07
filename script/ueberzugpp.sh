@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 #######################################################
 # ueberzugpp をインストールするためのシェルスクリプト #
@@ -10,4 +10,3 @@ yay -S ueberzugpp --needed --noconfirm
 
 # コンパイルに必要だったパッケージを削除
 sudo pacman -Rs $(pacman -Qdtq) --noconfirm
-
